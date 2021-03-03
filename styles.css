@@ -1,0 +1,124 @@
+/* overall */
+html {
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #7C7B7B;
+}
+
+li a {
+    text-decoration: none;
+    color: #7C7B7B;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+p {
+    font-size: 12px;
+}
+/* header */
+li {
+    float: left;
+    list-style-type: none;
+    padding-right: 14px;
+    }
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.cart {
+    width: 80px;
+    height: auto;
+    padding-right: 40px;;
+}
+
+.headercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* search form */
+button {
+    font-family: Oswald, Helvetica, sans-serif;
+    color: #7C7B7B;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.search {
+    text-align: center;
+    padding: 100px;
+}
+
+/* thumbnails */
+.thumbnailcontainer img {
+    width: 20%;
+    height: auto;
+}
+
+.thumbnailcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.column img {
+    width: 100%;
+}
+.column {
+    width: 20%;
+    padding: 15px;
+}
+
+/* articles */
+.articlecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article img {
+    width: 100%;
+    height: auto;
+}
+.article {
+    width: 100%;
+    margin: auto;
+}
+
+.leftparagraph {
+    width: 45%;
+    float: left;
+    padding: 10px;
+    padding-bottom: 50px    
+}
+
+.rightparagraph {
+    float: right;
+    width: 45%;
+    padding: 10px;    
+    padding-bottom: 50px
+}
+
+
+
+footer { 
+    clear: both;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    }
+
+.icon {
+    width: 15px;
+    height: auto;
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    align-items: center;
+}
